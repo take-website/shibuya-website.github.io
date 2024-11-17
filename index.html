@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ファーストビューの背景画像を先に読み込む -->
+  <link rel="preload" as="image" href="./images/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header-wrapper">
+      <div class="header-logo"><img src="./images/logo.svg"></div>
+      <div class="header-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#news">NEWS</a></li>
+          <li class="nav-item"><a href="#about">ABOUT</a></li>
+          <li class="nav-item"><a href="#business">BUSINESS</a></li>
+          <li class="nav-item"><a href="#company">COMPANY</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="header-btn"><a href="#">お問い合わせ</a></div>
+  </header>
+  <main class="main">
+    <div class="mainvisual"><img src="./images/mainvisual.jpg"></div>
+    <section id="news" class="news">
+      <h2 class="cmn-title news-title">
+        <span class="main-title">NEWS</span>
+        <span class="sub-title">ニュース</span>
+      </h2>
+      <ul class="news-list">
+        <li class="news-item">
+          <div class="date-content">
+            <time>2021.01.01</time>
+            <div class="item">NEWS</div>
+          </div>
+          <div class="title">タイトルタイトルタイトル</div>
+        </li>
+        <li class="news-item">
+          <div class="date-content">
+            <time>2021.01.01</time>
+            <div class="item">PRESS</div>
+          </div>
+          <div class="title">タイトルタイトルタイトル</div>
+        </li>
+        <li class="news-item">
+          <div class="date-content">
+            <time>2021.01.01</time>
+            <div class="item">NEWS</div>
+          </div>
+          <div class="title">タイトルタイトルタイトル</div>
+        </li>
+      </ul>
+    </section>
+    <section id="about" class="about">
+      <div class="about-image"><img src="./images/about.jpg"></div>
+      <div class="about-text">
+      <h2 class="cmn-title about-title">
+        <span class="main-title">ABOUT</span>
+        <span class="sub-title">私たちについて</span>
+      </h2>
+      <p class="about-text-content">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+      </div>
+    </section>
+    <section id="business" class="business">
+      <h2 class="cmn-title business-title">
+        <span class="main-title">BUSINESS</span>
+        <span class="sub-title">事業内容</span>
+      </h2>
+      <div class="business-cont">
+        <ul class="business-cont-list">
+          <li class="business-cont-item">
+            <div class="business-cont-title">Web制作・マーケティング</div>
+            <div class="business-cont-image"><img src="./images/business1.jpg"></div>
+          </li>
+          <li class="business-cont-item">
+            <div class="business-cont-title">プロモーション企画・制作</div>
+            <div class="business-cont-image"><img src="./images/business2.jpg"></div>
+          </li>
+          <li class="business-cont-item">
+            <div class="business-cont-title">インターネットメディア事業</div>
+            <div class="business-cont-image"><img src="./images/business3.jpg"></div>
+          </li>
+          <li class="business-cont-item">
+            <div class="business-cont-title">ソーシャル企画・運営</div>
+            <div class="business-cont-image"><img src="./images/business4.jpg"></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="company" class="company">
+      <div class="company-section-wrapper">
+        <h2 class="cmn-title company-title">
+          <span class="main-title">COMPANY</span>
+          <span class="sub-title">会社情報</span>
+        </h2>
+        <ul class="company-information-list">
+          <li class="company-information-item">
+            <p class="company-item-1">会社名</p>
+            <p class="company-item-detail-1">ウェブエンターテイメントデザイン株式会社</p>
+          </li>
+          <li class="company-information-item">
+            <p class="company-item-2">所在地</p>
+            <p class="company-item-detail-2">東京都渋谷区桜丘町99-9 West Building 3F</p>
+          </li>
+          <li class="company-information-item">
+            <p class="company-item-3">代表</p>
+            <p class="company-item-detail-3">山田太郎</p>
+          </li>
+          <li class="company-information-item">
+            <p class="company-item-4">設立</p>
+            <p class="company-item-detail-4">2021年1月1日</p>
+          </li>
+          <li class="company-information-item">
+            <p class="company-item-5">資本金</p>
+            <p class="company-item-detail-5">3,000,000円</p>
+          </li>
+          <li class="company-information-item">
+            <p class="company-item-6">事業内容</p>
+            <div class="company-item-detail-6">
+              <p>Web制作・マーケティング</p>
+              <p>インターネットメディア事業</p>
+              <p>プロモーション企画・制作</p>
+              <p>ソーシャル企画・運営</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="company-section-image">
+        <img src="./images/company.jpg">
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-wrapper">
+      <div class="footer-logo"><img src="./images/logo.svg"></div>
+      <div class="footer-company-information">
+        <p>Web Entertainment Design Inc. West Building 3F 9-99 Sakuragaokacho Shibuya-ku Tokyo, Japan 150-0031 T/99-9999-9999</p>
+      </div>
+    </div>
+    <p class="copyright">&copy;Web Entertainment Design Inc.</p>
+  </footer>
+</body>
+</html>
